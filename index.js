@@ -11,6 +11,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'only-multiline'],
     'max-len': ['error', {'code': 80}],
+    'no-multiple-empty-lines': ['error', {max: 1, maxEOF: 0}],
     'no-unused-vars': ['error', {'argsIgnorePattern': '^_'}],
     'object-curly-newline': ['error', {
       'ObjectExpression': {'multiline': true},
