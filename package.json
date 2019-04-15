@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-leanpanda",
   "description": "ESLint configuration for Leanpanda projects",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -10,10 +10,8 @@
   "license": "ISC",
   "homepage": "https://github.com/leanpanda-com/eslint-config-leanpanda",
   "peerDependencies": {
-    "eslint": ">= 3"
-  },
-  "dependencies": {
     "babel-eslint": "^10.0.1",
+    "eslint": ">= 3",
     "eslint-config-airbnb": "^17.1.0"
   }
 }

@@ -29,6 +29,18 @@ module.exports = {
         beforeClosing: 'allow'
       }
     ],
+    'react/sort-comp': [
+      'error',
+      {
+        order: [
+          'static-methods',
+          'lifecycle',
+          '/^handle.+$/',
+          'render',
+          'everything-else'
+        ]
+      }
+    ],
     semi: ['error', 'never']
   }
 }
