@@ -4,6 +4,19 @@ An ESLint configuration for Lean Panda projects.
 
 # Usage
 
+Add dependencies:
+
+```sh
+yarn add --dev \
+  babel-eslint \
+  eslint \
+  eslint-config-airbnb \
+  eslint-config-leanpanda \
+  eslint-plugin-import \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react
+```
+
 Create .eslintrc.js
 
 ```js
